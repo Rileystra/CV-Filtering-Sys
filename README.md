@@ -152,7 +152,7 @@ The system demonstrates practical use of AWS for secure cloud storage, backend i
 
 
 
----
+
 
 ## Architecture Overview
 
