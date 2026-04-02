@@ -129,6 +129,7 @@ The system demonstrates practical use of AWS for secure cloud storage, backend i
 - Amazon S3
 - API integration
 - Secure upload workflow
+- dynmo db 
 
 ### Tools
 - Git
@@ -149,22 +150,7 @@ The system demonstrates practical use of AWS for secure cloud storage, backend i
 
 ---
 
-## Screenshots
 
-### Landing Page
-The main entry page introduces the contractor onboarding platform and provides access to the application form.
-
-![Landing Page](./screenshots/landing-page.png)
-
-### Application Form
-Candidates enter their personal details, role information, experience, right-to-work status, and upload supporting documents.
-
-![Application Form](./screenshots/application-form.png)
-
-### Admin Dashboard
-The dashboard displays submitted applications with candidate details, role, contact information, status, suitability score, and submission time.
-
-![Admin Dashboard](./screenshots/admin-dashboard.png)
 
 ---
 
