@@ -73,21 +73,7 @@ This project follows a simple cloud-integrated web application architecture:
 - **Backend API** processes candidate data and supports dashboard access
 - **Admin dashboard** displays submissions and enables filtering/review
 
-### Architecture Flow
+- ### Architecture Flow
 
-```text
-Candidate User
-   ↓
-Web Application Frontend
-   ↓
-Secure Upload Request
-   ↓
-AWS S3 Bucket (Document Storage)
+<img width="1536" height="1024" alt="cloud diagram" src="https://github.com/user-attachments/assets/58d857f4-ce2c-4084-b2f5-647ae268d452" />
 
-Candidate Form Data
-   ↓
-Backend API
-   ↓
-Application Processing / Dashboard Data
-   ↓
-Admin Dashboard
