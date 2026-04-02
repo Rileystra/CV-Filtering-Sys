@@ -4,30 +4,29 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-Frontend-yellow)
 ![Vite](https://img.shields.io/badge/Vite-Build_Tool-purple)
 ![Status](https://img.shields.io/badge/Status-Completed-success)
-![Project Type](https://img.shields.io/badge/Project-Recruitment%20System-blue)
 
-A cloud-based CV filtering and recruitment support system designed to streamline candidate application handling, secure document uploads, and recruiter-side screening. The application combines a modern frontend with AWS-based cloud storage and backend API integration to support efficient candidate review and filtering.
+A cloud-based CV filtering and contractor onboarding system built with AWS and modern web technologies. The platform allows candidates to submit applications, upload key documents, and supports admin-side review through a dashboard with filtering and suitability scoring.
 
 ---
 
 ## Overview
 
-This project was developed to improve the recruitment process by reducing manual effort in handling CV submissions and supporting documents. It provides a structured application workflow where candidates can upload their details and files, while administrators can review applications through a dashboard, filter candidates by relevant criteria, and assess suitability more efficiently.
+This project was designed to improve recruitment and onboarding workflows by reducing manual document handling and creating a structured application review process. Candidates can submit their details and upload their CV, photograph, and PDF documents, while administrators can monitor applications from a central dashboard.
 
-The system demonstrates practical application of cloud technologies in a real-world business scenario, with a focus on usability, security, and operational efficiency.
+The system demonstrates practical use of AWS for secure cloud storage, backend integration, and web-based recruitment workflow automation.
 
 ---
 
 ## Key Features
 
-- Candidate application form for collecting applicant information
-- Upload support for CVs, profile images, and PDF documents
-- Secure file upload workflow integrated with AWS
-- Recruiter/admin dashboard for reviewing applications
-- Filtering by job role and application status
-- Suitability scoring logic for shortlisting support
-- Responsive interface for a better user experience
-- API-based communication between frontend and backend services
+- Candidate application form
+- Upload CV, recent photograph, and completed PDF form
+- Secure cloud-based file upload using AWS
+- Admin dashboard for reviewing submitted applications
+- Suitability scoring for quicker shortlisting
+- Application tracking with status indicators
+- Responsive and modern user interface
+- Backend API integration for processing candidate data
 
 ---
 
@@ -42,38 +41,138 @@ The system demonstrates practical application of cloud technologies in a real-wo
 ### Cloud / Backend
 - Amazon Web Services (AWS)
 - Amazon S3
-- REST API integration
-- Pre-signed URL upload workflow
+- API integration
+- Secure upload workflow
 
-### Development Tools
+### Tools
 - Git
 - GitHub
 - VS Code
 
 ---
 
-## System Workflow
+## How It Works
 
-1. A candidate fills in the online application form.
-2. The candidate uploads supporting files such as a CV, image, or PDF.
-3. Files are securely uploaded to AWS storage using a pre-signed upload process.
-4. Candidate data is submitted through an API to the application backend.
-5. The recruiter/admin accesses the dashboard to review all applications.
-6. Applications can be filtered by role and status.
-7. A suitability score helps identify stronger candidates more quickly.
+1. Candidates open the application portal.
+2. They complete the form with personal and job-related details.
+3. They upload their CV, recent photograph, and completed PDF form.
+4. Files are securely stored using AWS-based upload handling.
+5. Candidate data is sent to the backend API.
+6. Submitted records appear in the admin dashboard.
+7. Recruiters/admins can review suitability scores and application status.
 
 ---
 
-## Architecture Summary
+## Screenshots
 
-This project follows a simple cloud-integrated web application architecture:
+### Landing Page
+The main entry page introduces the contractor onboarding platform and provides access to the application form.
 
-- **Frontend client** handles user interaction and form submission
-- **AWS S3** stores uploaded CVs and other documents securely
-- **Backend API** processes candidate data and supports dashboard access
-- **Admin dashboard** displays submissions and enables filtering/review
+<img width="1625" height="861" alt="Screenshot 2026-04-02 160337" src="https://github.com/user-attachments/assets/6725ff60-1a62-4f96-9f8f-2e5d5f879968" />
 
-- ### Architecture Flow
 
-<img width="1536" height="1024" alt="cloud diagram" src="https://github.com/user-attachments/assets/58d857f4-ce2c-4084-b2f5-647ae268d452" />
+### Application Form
+Candidates enter their personal details, role information, experience, right-to-work status, and upload supporting documents.
+<img width="1463" height="904" alt="Screenshot 2026-04-02 160356" src="https://github.com/user-attachments/assets/c10457bc-dbf6-4fd7-9ade-1005e24536d6" />
+
+### Admin Dashboard
+The dashboard displays submitted applications with candidate details, role, contact information, status, suitability score, and submission time.
+<img width="1232" height="842" alt="Screenshot 2026-04-02 160638" src="https://github.com/user-attachments/assets/d0edfa9d-e1a9-4b09-b3e4-04c0650b2203" />
+
+
+
+---
+
+## Architecture Overview
+# CV Filtering System using AWS
+
+![AWS](https://img.shields.io/badge/AWS-Cloud-orange)
+![JavaScript](https://img.shields.io/badge/JavaScript-Frontend-yellow)
+![Vite](https://img.shields.io/badge/Vite-Build_Tool-purple)
+![Status](https://img.shields.io/badge/Status-Completed-success)
+
+A cloud-based CV filtering and contractor onboarding system built with AWS and modern web technologies. The platform allows candidates to submit applications, upload key documents, and supports admin-side review through a dashboard with filtering and suitability scoring.
+
+---
+
+## Overview
+
+This project was designed to improve recruitment and onboarding workflows by reducing manual document handling and creating a structured application review process. Candidates can submit their details and upload their CV, photograph, and PDF documents, while administrators can monitor applications from a central dashboard.
+
+The system demonstrates practical use of AWS for secure cloud storage, backend integration, and web-based recruitment workflow automation.
+
+---
+
+## Key Features
+
+- Candidate application form
+- Upload CV, recent photograph, and completed PDF form
+- Secure cloud-based file upload using AWS
+- Admin dashboard for reviewing submitted applications
+- Suitability scoring for quicker shortlisting
+- Application tracking with status indicators
+- Responsive and modern user interface
+- Backend API integration for processing candidate data
+
+---
+
+## Tech Stack
+
+### Frontend
+- HTML
+- CSS
+- JavaScript
+- Vite
+
+### Cloud / Backend
+- Amazon Web Services (AWS)
+- Amazon S3
+- API integration
+- Secure upload workflow
+
+### Tools
+- Git
+- GitHub
+- VS Code
+
+---
+
+## How It Works
+
+1. Candidates open the application portal.
+2. They complete the form with personal and job-related details.
+3. They upload their CV, recent photograph, and completed PDF form.
+4. Files are securely stored using AWS-based upload handling.
+5. Candidate data is sent to the backend API.
+6. Submitted records appear in the admin dashboard.
+7. Recruiters/admins can review suitability scores and application status.
+
+---
+
+## Screenshots
+
+### Landing Page
+The main entry page introduces the contractor onboarding platform and provides access to the application form.
+
+![Landing Page](./screenshots/landing-page.png)
+
+### Application Form
+Candidates enter their personal details, role information, experience, right-to-work status, and upload supporting documents.
+
+![Application Form](./screenshots/application-form.png)
+
+### Admin Dashboard
+The dashboard displays submitted applications with candidate details, role, contact information, status, suitability score, and submission time.
+
+![Admin Dashboard](./screenshots/admin-dashboard.png)
+
+---
+
+## Architecture Overview
+
+
+<img width="1536" height="1024" alt="cloud diagram" src="https://github.com/user-attachments/assets/5f5e7936-d267-4cc1-8bdf-2d38a0518f38" />
+
+
+
 
